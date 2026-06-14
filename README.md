@@ -64,16 +64,19 @@ BooleanEvaluator.exe
 When you run the program, it will prompt you to **"Enter operation :"**. Simply type the logical gate you wish to evaluate (e.g., `A AND B`, `NOT A`, `XOR`).
 
 ### Example Output (`A AND B`):
-
+```text
 Enter operation : A AND B
 The string is : A
 The string is : B
 The string is : AND 
-| A | B | A AND B |
+| A | B | A AND B|
 | 0 | 0 |    0    |
 | 0 | 1 |    0    |
 | 1 | 0 |    0    |
 | 1 | 1 |    1    |
 
+```
 
 > **Note:** The program relies on substring matching (`s.find()`), so ensure your input contains the exact uppercase operator name (like `NOT`, `NAND`, `AND`, `NOR`, `XOR`, or `OR`) for it to trigger the correct truth table.
+
+
