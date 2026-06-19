@@ -69,7 +69,7 @@ Enter operation : A AND B
 The string is : A
 The string is : B
 The string is : AND 
-| A | B | A AND B|
+| A | B | A AND B |
 | 0 | 0 |    0    |
 | 0 | 1 |    0    |
 | 1 | 0 |    0    |
